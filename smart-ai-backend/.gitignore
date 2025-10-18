@@ -1,0 +1,26 @@
+node_modules
+.env
+smart-ai-backend/node_modules
+smart-ai-backend/.env
+
+# Frontend
+smart-ai-frontend/node_modules
+smart-ai-frontend/.env
+smart-ai-frontend/build
+# Ignore dependencies
+node_modules/
+**/node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore build output
+build/
+dist/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
